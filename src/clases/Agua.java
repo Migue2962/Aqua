@@ -1,10 +1,22 @@
 package clases;
 public class Agua{
+    private int cons;
     private String importancia, significado, funciones, carcteristicas;
 
     public Agua() {
         
     }
+    
+
+    public int getCons() {
+        return cons;
+    }
+
+
+    public void setCons(int cons) {
+        this.cons = cons;
+    }
+
 
     public String getImportancia() {
         return importancia;
