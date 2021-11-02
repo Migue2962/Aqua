@@ -20,7 +20,7 @@ public class Menu extends JFrame implements ActionListener{
     Font Aqua = new Font("Arial",3,70);
     public Menu(){
         setTitle("Aqua");
-        setLayout(null);//a
+        setLayout(null);
         setSize(910,607);     
         setLocationRelativeTo(this);
 
