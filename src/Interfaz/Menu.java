@@ -49,5 +49,8 @@ public class Menu extends JFrame implements ActionListener{
         if(boton.getSource() == salir){
             dispose();
         }
+        if(boton.getSource() == login){
+            
+        }
     }
 }
