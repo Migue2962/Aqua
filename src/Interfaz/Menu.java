@@ -50,7 +50,7 @@ public class Menu extends JFrame implements ActionListener{
             dispose();
         }
         if(boton.getSource() == login){
-            
+            new Login();
         }
     }
 }
